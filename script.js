@@ -5,8 +5,7 @@ const sampleObject = {
 };
 
 function hasKey(key) {
-  //   write your code here
-		
+    //write your code here
 	return sampleObject.hasOwnProperty(key)); 
 }
 
