@@ -6,7 +6,10 @@ const sampleObject = {
 
 function hasKey(key) {
     //write your code here
-	return sampleObject.hasOwnProperty(key));
+	for(var k in sampleObject){
+		if(k === key ) return true;
+	} 
+	return false; 
 }
 
 // Do not change the code below
